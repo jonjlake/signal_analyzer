@@ -1,14 +1,15 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include <stdio.h>
+#include "signal_analyzer.h"
 
-typedef struct PeakList
+/*typedef struct PeakList
 {
 	int index;
 	double value;
 	struct PeakList *next;
 } PeakList;
-
+*/
 void destroy_peaklist(PeakList *peaklist)
 {
 	PeakList *pp = peaklist;
